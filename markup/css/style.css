@@ -5,11 +5,6 @@
   font-style: normal;
 }
 
-body {
-  max-width: 1920px;
-  width: 100%;
-}
-
 .header-top {
   display: inline-block;
   background: #E5E5E5;
@@ -130,13 +125,20 @@ ul {
   width: 100%;
 }
 
+.container img,
+.container h2,
+.container p {
+  width: 100%;
+}
+
 .container-2 {
   display: block;
-  width: 260px;
+
   position: absolute;
   left: 405px;
   top:192px;
   color:white;
+  width: 100%;
 }
 
 .container-2>h2 {
@@ -226,20 +228,18 @@ ul {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #333333;
 }
 
-.container-3 p:nth-child(3),
-.container-6 p:nth-child(3) {
+.money {
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.05em;
+  color: #000000;
 }
 
-.container-3 li a:last-child,
-.container-6 li a:last-child {
+.buy {
   display: inline-block;
   text-decoration: none;
   width: 130px;
@@ -293,6 +293,23 @@ ul {
   min-height: 212px;
   background: #F13C6E;
   margin: 100px 405px 100px 0px;
+}
+
+.store {
+  display: inline-block;
+  width: 170px;
+  min-height: 35px;
+  text-decoration: none;
+  background: #F13C6E;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 6px;
+  margin-left: 40px;
 }
 
 .box-1 p:first-child {
@@ -355,20 +372,6 @@ ul {
   color: #FFFFFF;
 }
 
-.btn-white-2 {
-  width: 170px;
-  height: 40px;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: white;
-  background: transparent;
-  border: 2px solid #FFFFFF;
-  border-radius: 40px;
-  margin-left: 40px;
-}
-
 .container-4 img {
   position: absolute;
   top: 53px;
@@ -379,7 +382,7 @@ ul {
   display: inline-block;
   width: 100%;
   background: #E5E5E5;
-  margin-top: -5px;
+  margin-top: -8px;
 }
 
 table {

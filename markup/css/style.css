@@ -220,8 +220,7 @@ ul {
   margin-left: 22px;
 }
 
-.container-3 p,
-.container-6 p {
+.hair {
   text-align: center;
   margin: 0 20px 20px;
   display: block;
@@ -275,15 +274,22 @@ ul {
   width: 100%;
   background: #E5E5E5;
   margin-top: -4px;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
+.con-box {
+  display: inline-block;
+  margin: 100px auto;
+  width: 100%;
+}
 .box-1 {
   position: relative;
   float: left;
   width: 530px;
   min-height: 212px;
   background: #F13C6E;
-  margin: 100px 30px 100px 405px;
+  /* margin: 100px 30px 100px 405px; */
 }
 
 .box-2 {
@@ -292,7 +298,7 @@ ul {
   width: 530px;
   min-height: 212px;
   background: #F13C6E;
-  margin: 100px 405px 100px 0px;
+  /* margin: 100px 405px 100px 0px; */
 }
 
 .store {
@@ -353,6 +359,7 @@ ul {
   top: 53px;
   right: 45px;
 }
+
 
 .box-2 p:first-child {
   display: inline-block;
@@ -419,14 +426,15 @@ td {
 .footer-top>ul>li {
   margin-left: -6px;
   display: inline-block;
-  margin-right: 186px;
-  width: 99px;
+  margin-right: 33px;
+  width: 250px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 140.62%;
   color: #000000;
-  padding: 0;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #EFEFEF;
 }
 
 hr {
@@ -485,38 +493,31 @@ hr {
   margin-right: 20px;
 }
 
-.icon-facebook-with-circle:before {
-  content: "\e900";
+.icon-youtube-play:before {
+  content: "\f16a";
+  color: #F13C6E;
+  font-size: 25px;
+  border: 2px solid #F13C6E;
   border-radius: 50%;
+  padding: 8px;
 }
 
-.icon-i:before {
+.icon-social-facebook:before {
   content: "\e901";
+  color: #F13C6E;
+  font-size: 25px;
+  border: 2px solid #F13C6E;
+  border-radius: 50%;
+  padding: 8px;
 }
 
-.icon-y:before {
-  content: "\e902";
-}
-
-.icon-facebook-with-circle:hover {
+.icon-instagram:before {
   content: "\e900";
-  color: black;
-  opacity: 0.7;
-  border-radius: 80%;
-}
-
-.icon-i:hover {
-  content: "\e900";
-  color: black;
-  opacity: 0.7;
-  border-radius: 80%;
-}
-
-.icon-y:hover {
-  content: "\e900";
-  color: black;
-  opacity: 0.7;
-  border-radius: 80%;
+  color: #F13C6E;
+  font-size: 25px;
+  border: 2px solid #F13C6E;
+  border-radius: 50%;
+  padding: 8px;
 }
 
 .float-2 {
